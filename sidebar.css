@@ -1,0 +1,103 @@
+main.main{
+
+}
+main .container {
+    width: 1440px;
+    margin: 0 auto;
+}
+main .container nav.sidebar {
+    width: 250px;
+    height: 1549px;
+    box-shadow: -1px 0px 0px 0px #D7DBEC inset;
+}
+main .container nav.sidebar .navigation {
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+}
+main .container nav.sidebar .navigation ul{
+
+}
+main .container nav.sidebar .navigation ul a{
+
+}
+main .container nav.sidebar .navigation ul a button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 0 solid;
+    border-radius: 12px;
+    padding: 10px 16px;
+    /* width: 100%; */
+
+    width: 218px;
+    height: 44px;
+
+    background: inherit;
+    transition: background 0.1s ease;
+    cursor: pointer;
+}
+main .container nav.sidebar .navigation ul a button:hover {
+    background: #1E5EFF;
+}
+main .container nav.sidebar .navigation ul a button:hover .btn_left p{
+    color: white;
+}
+main .container nav.sidebar .navigation ul a button .btn_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+main .container nav.sidebar .navigation ul a button p{
+    color: #5A607F;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
+main .container nav.sidebar .navigation h6{
+    color: #A1A7C4;
+
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 133.333% */
+
+    padding:  28px 12px 11px 16px;
+}
+main .container nav.sidebar .navigation .nav_settings{
+
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+main .container nav.sidebar .navigation .notification_counter{
+    background: black;
+    width: 26px;
+    height: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+}
+main .container nav.sidebar .navigation .notification_counter p{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 133.333% */
+}

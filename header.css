@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F6FA;
+}
+
+/* .page {} */
+.page header.header {
+    background: #ffffff;
+    box-shadow: 0px 1px 4px 0px rgba(21, 34, 50, 0.08);
+    z-index: 99;
+    width: 100%;
+}
+
+.page header.header .header_size {
+    margin: 0 auto;
+    display: grid;
+    
+    width: 1440px;
+    height: 68px;
+
+    padding-inline: 10px;
+}
+.page header.header .header_size .container{
+    width: 100%;
+}
+.page header.header .header_size .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page header.header .header_size .container .container_left{
+    display: flex;
+}
+.page header.header .header_size .container .container_left .logo {
+    display: flex;
+    align-items: center;
+    gap: 11.71px;
+    cursor: pointer;
+
+    width: 172px;
+    height: 38px;
+}
+
+/* ЛОГО header*/
+.page header.header .header_size .container .container_left .logo .logo_type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page header.header .header_size .container .container_left .logo h5 {
+    color: #000;
+    font-family: Inter;
+    font-size: 21.7px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    /* 142.857% */
+}
+
+/* Поиск */
+.page header.header .header_size .container .container_left .search {
+    margin-left: 100px;
+
+    display: inline-flex;
+    padding-right: 3px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.page header.header .header_size .container .container_left .search input{
+    background: inherit;
+    border: 0 solid;
+}
+.page header.header .header_size .container .container_left .search input::placeholder{
+    outline: none;
+    color: #5A607F;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
+.page header.header .header_size .container .container_right{
+    display: flex;
+}
+.page header.header .header_size .container .container_right .chat {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.page header.header .header_size .container .container_right .notifications {
+    display: flex;
+    align-items: center;
+    margin-right: 37px;
+    cursor: pointer;
+
+    position: relative;
+}
+.page header.header .header_size .container .container_right .notifications p.notification_counter{
+    position: absolute;
+    top: 2px;
+    right: -2px;
+
+    width: 16px;
+    height: 16px;
+
+    border-radius: 12px;
+    background: #1E5EFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 133.333% */
+}
+.page header.header .header_size .container .container_right .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 185px;
+    height: 36px;
+}
+.page header.header .header_size .container .container_right .user .avatar{
+    width: 39px;
+    height: 39px;
+    cursor: pointer;
+
+    background: url(Bitmap.png), lightgray 0px 0px / 100% 100% no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.page header.header .header_size .container .container_right .user h5{
+    color: #5A607F;
+    cursor: pointer;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
+
+.page header.header .header_size .container .container_right .user a {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}

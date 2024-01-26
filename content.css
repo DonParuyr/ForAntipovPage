@@ -1,0 +1,420 @@
+/* Основной блок после header*/
+main.main .container {
+    display: flex;
+}
+
+/* Блок "Настройки профиля" */
+section.section {
+    padding: 29px 30px 0px 40px;
+
+    color: #131523;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 150% */
+}
+
+section.section .content nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.section .content nav button.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 57px;
+    height: 21px;
+
+    border: 0;
+    background: inherit;
+    cursor: pointer;
+}
+
+/*  Кнопка "<- Назад"  */
+section.section .content nav button.back p {
+    color: #5A607F;
+
+    margin-left: 4px;
+
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 153.846% */
+
+    width: 40px;
+    height: 21px;
+}
+
+/* h2 "Настройки профиля" */
+section.section .content nav h2 {
+    color: #131523;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 150% */
+
+    margin-bottom: 30px;
+}
+
+section.section .content nav ul.settings-profile_buttons {
+    width: 255px;
+    height: 252px;
+}
+
+section.section .content nav ul.settings-profile_buttons button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 0 solid;
+    border-radius: 12px;
+    padding: 10px 16px;
+    width: 100%;
+
+    height: 44px;
+
+    background: inherit;
+    transition: background 0.1s ease;
+    cursor: pointer;
+}
+
+section.section .content nav ul.settings-profile_buttons p {
+    color: #131523;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+section.section .content nav ul.settings-profile_buttons button:hover {
+    background: #1E5EFF;
+}
+
+section.section .content nav ul.settings-profile_buttons button:hover p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+
+
+/* 3 блок -> Основная часть информации */
+
+/*  */
+aside {
+    width: 100%;
+}
+/* Блок информации */
+aside .content {
+    margin-top: 72px;
+    
+    height: 1187px;
+
+    border-radius: 6px;
+    box-shadow: 0px 1px 4px 0px rgba(21, 34, 50, 0.08);
+}
+/* Поиск */
+aside .content .search {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #D9E1EC;
+
+    background: #FFF;
+}
+    aside .content .search input {
+        width: 100%;
+
+        outline: none;
+        border: 0 solid;
+    }
+    aside .content .search input::placeholder {
+        padding: 2px;
+        color: #A1A7C4;
+        display: flex;
+
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+    }
+
+aside .content .content_settings{
+    margin-top: 4px;
+    padding: 28px;
+
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(21, 34, 50, 0.08);
+}
+aside .content .content_settings .card {
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+    aside .content .content_settings .card h5{
+        color: #131523;
+
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 140% */
+    }
+    aside .content .content_settings .card p{
+        color: #131523;
+
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+aside .content .content_settings .card .rec_block {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 92px;
+
+    border-radius: 4px;
+    background: #F5F6FA;
+
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+    aside .content .content_settings .card .rec_block p{
+        color: #5A607F;
+
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+    }
+aside .content .content_settings .card ul{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+    aside .content .content_settings .card ul li{
+        display: flex;
+        align-items: center;
+
+        color: #131523;
+
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+        aside .content .content_settings .card ul li .circle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 36px;
+            height: 36px;
+            border-radius: 160px;
+            background: #F5F6FA;
+
+            color: #5A607F;
+            text-align: center;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+        }
+        aside .content .content_settings .card ul li p{
+            margin-left: 24px;
+
+            width: 709px;
+            color: #131523;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+        }
+.line {
+    margin-block: 33px;
+    width: 100%;
+    height: 1px;
+    background: #E6E9F4;
+}
+.dop_info_buttons{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    width: 100%;
+    height: 56px;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.00);
+}
+.dop_info_buttons button{
+    display: flex;
+    align-items: center;
+
+    border: 0;
+    background: inherit;
+    
+
+    color: #5A607F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+
+    height: 100%;
+    position: relative;
+
+    cursor: pointer;
+}
+.dop_info_buttons button:hover{
+    color: #232531;
+
+    transition: 0.15s ease;
+}
+.dop_info_buttons button:hover:before{
+    position: absolute;
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 2px;
+
+    bottom: 0;
+    left: 0;
+    
+    background: #0f3697;
+}
+.dop_info_buttons button:focus{
+    color: #1E5EFF;
+}
+.dop_info_buttons button:focus:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+
+    bottom: 0;
+    left: 0;
+    background: #1E5EFF;
+}
+.cards{
+    width: 100%;
+    padding: 28px;
+    background: white;
+
+
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(21, 34, 50, 0.08);
+}
+.cards h5{
+    margin-bottom: 12px;
+    color: #131523;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+}
+.cards .help-buttons{
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.cards button{
+    padding: 8px 12px;
+
+    border-radius: 4px;
+    border: 1px solid #D7DBEC;
+    background: #FFF;
+
+    color: #1E5EFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    cursor: pointer;
+
+    transition: background 0.16s ease;
+}
+.cards button:hover{
+    background: rgb(238, 238, 238);
+}
+.cards p{
+    color: #5A607F;
+
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+.cards a{
+    color: #1E5EFF;
+    
+    padding-top: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
+/* 3 блок */
+.likes_counter{
+    padding: 28px;
+
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(21, 34, 50, 0.08);
+}
+
+.line_over {
+    width: 100%;
+    height: 1px;
+    background: #E6E9F4;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+}
+.contacts .cards{
+    height: 176px;
+    padding: 28px;
+}
+.contacts .cards p{
+    padding-bottom: 20px;
+}
